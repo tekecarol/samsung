@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.css"    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <img src="Samsung.png" alt="logo" class="logo" />
+      <ul class="navlist">
+        <li>AI</li>
+        <li>MOBILE</li>
+        <li>TV & AV</li>
+        <li>ELECTRONICS</li>
+        <li>INFORMATION</li>
+        <li>OFFERS</li>
+        <div class="end">
+          <li>ASSISTANCE</li>
+          <li>FOR PROFESSIONALS</li>
+        </div>
+      </ul>
+      
+      <div class="icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </div>
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="001.jpg" alt="Image 1" />
+          <div class="slide-text">
+            Samsung Galaxy<br />Welcome to the house of many offers
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="002.jpg" alt="Image 2" />
+          <div class="slide-text">
+            Samsung Galaxy<br />Welcome to the house of many offers
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="003.jpg" alt="Image 3" />
+          <div class="slide-text">
+            Samsung Galaxy<br />Welcome to the house of many offers
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="004.jpg" alt="Image 4" />
+          <div class="slide-text">
+            Samsung Galaxy<br />Welcome to the house of many offers
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="005.jpg" alt="Image 5" />
+          <div class="slide-text">
+            Samsung Galaxy<br />Welcome to the house of many offers
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="006.jpg" alt="Image 6" />
+          <div class="slide-text">
+            Samsung Galaxy<br />Welcome to the house of many offers
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="007.jpg" alt="Image 7" />
+          <div class="slide-text">
+            Samsung Galaxy<br />Welcome to the house of many offers
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="008.jpg" alt="Image 8" />
+          <div class="slide-text">
+            Samsung Galaxy<br />Welcome to the house of many offers
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <div class="additional-content">
+      <!-- Additional content goes here -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper-container", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+
+    <div class="grid-content">
+      <h2>Selection of the Month</h2>
+      <nav class="category-nav">
+        <ul>
+          <li><a href="#actions">Actions</a></li>
+          <li><a href="#mobile">Mobile</a></li>
+          <li><a href="#tv-av">TV & AV</a></li>
+          <li><a href="#household">Household</a></li>
+        </ul>
+      </nav>
+
+      <div class="grid-container section_2 ">
+        <div class="action-grid">
+          <div class="action-item">
+            <img src="Grid Images/Tv images/1.png" alt="Action 1" />
+            <p>Action 1</p>
+          </div>
+          <div class="action-item">
+            <img src="Grid Images/Tv images/2.png" alt="Action 2" />
+            <p>Action 2</p>
+          </div>
+          <div class="action-item">
+            <img src="Grid Images/Tv images/3.png" alt="Action 3" />
+            <p>Action 3</p>
+          </div>
+          <div class="action-item">
+            <img src="Grid Images/Tv images/4.png" alt="Action 4" />
+            <p>Action 4</p>
+          </div>
+        </div>
+
+        <div class="grid-item">
+          <img src="Grid Images/1.png" alt="Image 1" />
+          <p>Image 1</p>
+        </div>
+        <div class="grid-item">
+          <img src="Grid Images/2.png" alt="Image 2" />
+          <p>Image 2</p>
+        </div>
+        <div class="grid-item">
+          <img src="Grid Images/3.png" alt="Image 3" />
+          <p>Image 3</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="body">
+      <body>
+        <div class="header">
+          <h1>Mobile</h1>
+        </div>
+        <div class="nav">
+          <button onclick="showImage('fold6')">Galaxy Z Fold6</button>
+          <button onclick="showImage('flip6')">Galaxy Z Flip6</button>
+          <button onclick="showImage('s24')">Galaxy S24 Ultra</button>
+        </div>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="Grid Images/4.png" alt="Image 4" />
+            <p>Image 4</p>
+          </div>
+          <div class="grid-item">
+            <img src="Grid Images/5.png" alt="Image 5" />
+            <p>Image 5</p>
+          </div>
+          <div class="grid-item">
+            <img src="Grid Images/6.png" alt="Image 6" />
+            <p>Image 6</p>
+          </div>
+          <div class="grid-item">
+            <img src="Grid Images/7.png" alt="Image 7" />
+            <p>Image 7</p>
+          </div>
+          <div class="grid-item">
+            <img src="Grid Images/8.png" alt="Image 8" />
+            <p>Image
+            </div>
+
+  
+        <div class="image-container" id="imageContainer">
+          <img id="displayImage" src="Grid Images/1.png" alt="Image 1" />
+          <div class="image-text" id="imageText">Galaxy Z Fold6</div>
+        </div> 
+        
+        <div class="galaxy-ai">Galaxy AI <span class="star">★</span></div>
+  
+        <div class="offer-description">
+          <p>
+            Buy now and get 10% discount in the shop App and $150 exchange bonus.
+          </p>
+          <button class="buy-button">Buy Now</button>
+          <p class="learn-more">Learn More</p>
+        </div>    
+    </div>
+
+    <div class="household">
+      <h2>Selection of the Month</h2>
+      <nav class="category-nav">
+        <ul>
+          <li><a href="#Jet-Bot Combo AI">Jet Bot </a></li>
+          <li><a href="#kitchen">Kitchen</a></li>
+          <li><a href="#bedroom">Bedroom</a></li>
+          <li><a href="#other">Other</a></li>
+        </ul>
+      </na
+    </div>
+e
+    <div class="suggested_product"></div>
+
+    <div class="Explore#DoWhatYouCant"></div>
+
+    <div class="Areyoulookingforsomethingelse"></div>
+
+    <div class="bottomnav"></div>
+
+    <div class="list_items"></div>
+
+    <div class="footer"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
